@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukascopyDataGrabber", "DukascopyDataGrabber\DukascopyDataGrabber.csproj", "{9DDB4E72-E5BD-477A-8B19-16C4E4A48F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukascopyDataManager", "DukascopyDataManager\DukascopyDataManager.csproj", "{D3219D8F-9C3D-468B-A721-F3199FBC75FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukascopyInstrumentManager", "DukascopyInstrumentManager\DukascopyInstrumentManager.csproj", "{90141D67-DF1F-4943-A02B-6BEE0D238D4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukascopyFileManager", "DukascopyFileManager\DukascopyFileManager.csproj", "{5633C4F6-2089-43E9-BB0A-4E07A411413D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DDB4E72-E5BD-477A-8B19-16C4E4A48F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDB4E72-E5BD-477A-8B19-16C4E4A48F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDB4E72-E5BD-477A-8B19-16C4E4A48F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDB4E72-E5BD-477A-8B19-16C4E4A48F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3219D8F-9C3D-468B-A721-F3199FBC75FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3219D8F-9C3D-468B-A721-F3199FBC75FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3219D8F-9C3D-468B-A721-F3199FBC75FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3219D8F-9C3D-468B-A721-F3199FBC75FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90141D67-DF1F-4943-A02B-6BEE0D238D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90141D67-DF1F-4943-A02B-6BEE0D238D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90141D67-DF1F-4943-A02B-6BEE0D238D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90141D67-DF1F-4943-A02B-6BEE0D238D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5633C4F6-2089-43E9-BB0A-4E07A411413D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633C4F6-2089-43E9-BB0A-4E07A411413D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633C4F6-2089-43E9-BB0A-4E07A411413D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633C4F6-2089-43E9-BB0A-4E07A411413D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
