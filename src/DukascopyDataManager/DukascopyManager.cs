@@ -116,7 +116,7 @@ namespace DukascopyDataManager
 
             try
             {
-                string url = $"http://www.dukascopy.com/datafeed/{symbol}/{year}/{month - 1:D2}/{day:D2}/{hour:D2}h_ticks.bi5";
+                string url = $"http://datafeed.dukascopy.com/datafeed/{symbol}/{year}/{month - 1:D2}/{day:D2}/{hour:D2}h_ticks.bi5";
                 byte[] dukaData = _webClient.DownloadData(url);
                 decompressed = Decompress(dukaData);
             }

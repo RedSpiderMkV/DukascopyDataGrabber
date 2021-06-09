@@ -82,7 +82,7 @@ namespace DukascopyFileManager
 
         #region Private Data
 
-        private const string DOWNLOAD_DIRECTORY = "Data";
+        private const string DOWNLOAD_DIRECTORY = @"D:\DukaData";
 
         #endregion
     }

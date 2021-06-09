@@ -1,12 +1,12 @@
-<instruments>
+<Instrument>
 	<Forex>
-		<!-- <Index Name="EURUSD" Symbol="EURUSD" /> -->
+		<!-- <Instrument Name="EURUSD" Symbol="EURUSD" /> -->
 	</Forex>
 	<Commodities />
 	<Indices>
-		<Index Name="DowJones" Symbol="USA30IDXUSD" />
-		<!--<Index Name="Nasdaq100" Symbol="USATECH.IDX/USD" />
-		<Index Name="SNP500" Symbol="USA500.IDX/USD" />
-		<Index Name="FTSE100" Symbol="GBR.IDX/GBP" />-->
+		<Instrument Name="FTSE100" Symbol="GBRIDXGBP" />
+		<!--<Instrument Name="Nasdaq100" Symbol="USATECH.IDX/USD" />
+		<Instrument Name="SNP500" Symbol="USA500.IDX/USD" />
+		<Instrument Name="DowJones" Symbol="USA30IDXUSD" />-->
 	</Indices>
-</instruments>
+</Instrument>

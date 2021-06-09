@@ -56,10 +56,14 @@ namespace DukascopyInstrumentManager
         /// <returns>Collection of ticker instruments.</returns>
         private IEnumerable<ITickerInstrument> GetTickerInstrumentsFromXml(InstrumentType type)
         {
+            var tickerInstrumentCollection = new List<ITickerInstrument>();
+
             string instrumentName = GetElementName(type);
             XElement element = _instrumentsXml.Element(instrumentName);
-
-            var tickerInstrumentCollection = new List<ITickerInstrument>();
+            if(element == null)
+            {
+                return tickerInstrumentCollection;
+            }
 
             IEnumerable<XElement> indices = element.Elements("Instrument");
             foreach (XElement index in indices)
@@ -105,7 +109,7 @@ namespace DukascopyInstrumentManager
         private readonly XElement _instrumentsXml;
         private readonly ITickerInstrumentFactory _tickerInstrumentFactory;
 
-        private const string INSTRUMENT_FILE = "DownloadSymbols.xml";
+        private const string INSTRUMENT_FILE = @"D:\RedSpiderTech\DukascopyDataGrabber\Instruments.xml";
 
         #endregion
     }
